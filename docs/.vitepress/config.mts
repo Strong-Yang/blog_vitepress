@@ -7,6 +7,7 @@ export default defineConfig({
   description: "A Personal Blog For My Own",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/avatar.jpg' ,// 表示docs/public/avartar.png
     nav: [
       { text: 'Game Record', link: '/' },
       { text: 'Travel Record', link: '/' },
