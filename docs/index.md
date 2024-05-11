@@ -6,6 +6,11 @@ hero:
   name: "My Personal Blog"
   text: "A Personal Blog"
   tagline: A Personal Blog For My Own
+  image:
+    # 首页右边的图片
+    src: /avatar.jpg
+    # 图片的描述
+    alt: avatar
   actions:
     - theme: brand
       text: Markdown Examples
