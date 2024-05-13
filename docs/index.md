@@ -1,11 +1,12 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+home: true
 
 hero:
-  name: "My Personal Blog"
-  text: "A Personal Blog"
-  tagline: A Personal Blog For My Own
+  name: "Optimux"
+  text: "且停且忘且随风，且行且看且从容"
+  tagline: /吃喝玩乐/手工宅/游戏宅/
   image:
     # 首页右边的图片
     src: /avatar.jpg
@@ -13,11 +14,11 @@ hero:
     alt: avatar
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 进入主页
+      link: /
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 个人成长
+      link: /column/Growing/
 
 features:
   - title: 特性 A
@@ -26,5 +27,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+lastUpdated: true
 ---
 

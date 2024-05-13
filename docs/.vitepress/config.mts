@@ -1,26 +1,29 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { nav } from './conf/index.mts';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog_vitepress/',
-  title: "My Personal Blog",
+  title: "个人博客记录",
   description: "A Personal Blog For My Own",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar.jpg' ,// 表示docs/public/avartar.png
-    nav: [
-      { text: 'Game Record', link: '/' },
-      { text: 'Travel Record', link: '/' },
-      { text: 'Handmade Record', link: '/' },
-      { text: 'Study', link: '/' }
-    ],
+    nav: nav,
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '去旅游',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '成都', link: '/column/Travel/chengdu' },
+          { text: '广州', link: '/column/Travel/guangzhou' }
+        ]
+      },
+      {
+        text: '玩游戏',
+        items: [
+          { text: '魔兽世界', link: '/column/Game/WOW' },
+          { text: '英雄联盟', link: '/column/Game/LOL' }
         ]
       }
     ],
