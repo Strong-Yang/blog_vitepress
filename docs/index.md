@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-home: true
+# home: true
 
 hero:
   name: "Optimux"
@@ -9,7 +9,7 @@ hero:
   tagline: /吃喝玩乐/手工宅/游戏宅/
   image:
     # 首页右边的图片
-    src: /avatar.jpg
+    src: /freedom.jpg
     # 图片的描述
     alt: avatar
   actions:
@@ -30,4 +30,9 @@ features:
 
 lastUpdated: true
 ---
+<!-- 自定义组件 -->
+<!-- <script setup>
+import home from '/.vitepress/components/home.vue';
+</script>
 
+<home /> -->
