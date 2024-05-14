@@ -38,8 +38,14 @@ export const sidebar: DefaultTheme.Sidebar = {
                     items: [
                         {   text: '自由', 
                             link: '/column/Handmake/Gundam/freedom' 
+                        },
+                        {   text: '沙扎比', 
+                            link: '/column/Handmake/Gundam/SAZABI' 
                         }
                     ]
+                },
+                {   text: '手办', 
+                    link: '/column/Handmake/Handmade' 
                 }
             ]
         }
