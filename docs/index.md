@@ -22,7 +22,7 @@ hero:
 
 features:
   - icon: 
-      src: /freedom.jpg   
+      src: 'https://github.com/Strong-Yang/blog_vitepress/blob/main/docs/public/avatar.jpg'  
     title: MG174MSN-04沙扎比Ver.Ka
     details: 沙扎比，是由制造方阿纳海姆电子公司制造的机体。基本信息机体番号：MSN-04 驾驶员：夏亚‧阿兹纳布(Char‧Aznable)、 机体名称：サザビー（日文） 沙扎比（中文） SAZABI（英文），机体类型：NT专用型MS 。
     link: '/column/Handmake/Gundam/SAZABI' 
