@@ -6,6 +6,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Travel/': [
         {
             text: '去旅游',
+            link: '/column/Travel/',
             items: [
                 {   text: '成都', 
                     link: '/column/Travel/chengdu' 
@@ -31,6 +32,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Game/': [
         {
             text: '玩游戏',
+            link: '/column/Game/',
             items: [
                 {   text: '魔兽世界', 
                     link: '/column/Game/WOW' 
@@ -44,6 +46,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Handmake/': [
         {
             text: '做手工',
+            link: '/column/Handmake/',
             items: [
                 {   text: '高达', 
                     link: '/column/Handmake/Gundam',
@@ -62,6 +65,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Study/': [
         {
             text: '学知识',
+            link: '/column/Study/',
             items: [
                 {   text: '学习笔记', 
                     link: '/column/Study/test' 
@@ -72,6 +76,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Fitness/': [
         {
             text: '健身',
+            link: '/column/Fitness/',
             items: [
                 {   text: '力量训练', 
                     link: '/column/Fitness/strength' 
@@ -85,6 +90,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/column/Growing/': [
         {
             text: '个人成长',
+            link: '/column/Growing/',
             items: [
                 {   text: '健身', 
                     link: '/column/Fitness/' 
