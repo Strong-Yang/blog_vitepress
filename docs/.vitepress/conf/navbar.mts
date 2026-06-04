@@ -24,6 +24,10 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: '学知识',
         link: '/column/Study/' // 表示docs/column/Study/index.md
+      },
+      {
+        text: '健身',
+        link: '/column/Fitness/' // 表示docs/column/Fitness/index.md
       }
     ]
   },

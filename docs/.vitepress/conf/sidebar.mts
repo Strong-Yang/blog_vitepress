@@ -59,5 +59,18 @@ export const sidebar: DefaultTheme.Sidebar = {
                 }
             ]
         }
+    ],
+    '/column/Fitness/': [
+        {
+            text: '健身',
+            items: [
+                {   text: '力量训练', 
+                    link: '/column/Fitness/strength' 
+                },
+                {   text: '饮食管理', 
+                    link: '/column/Fitness/diet' 
+                }
+            ]
+        }
     ]
 };
