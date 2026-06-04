@@ -12,6 +12,18 @@ export const sidebar: DefaultTheme.Sidebar = {
                 },
                 {   text: '广州', 
                     link: '/column/Travel/guangzhou' 
+                },
+                {   text: '重庆', 
+                    link: '/column/Travel/chongqing' 
+                },
+                {   text: '阳朔', 
+                    link: '/column/Travel/yangshuo' 
+                },
+                {   text: '杭州', 
+                    link: '/column/Travel/hangzhou' 
+                },
+                {   text: '上海迪士尼', 
+                    link: '/column/Travel/shanghai_disney' 
                 }
             ]
         }
