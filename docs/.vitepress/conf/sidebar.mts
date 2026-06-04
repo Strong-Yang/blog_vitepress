@@ -39,6 +39,9 @@ export const sidebar: DefaultTheme.Sidebar = {
                 },
                 {   text: '英雄联盟', 
                     link: '/column/Game/LOL' 
+                },
+                {   text: '剑网三', 
+                    link: '/column/Game/JX3' 
                 }
             ]
         }

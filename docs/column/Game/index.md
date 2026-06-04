@@ -8,6 +8,7 @@
 |------|------|------|
 | 🐉 魔兽世界 | MMORPG | [查看](/column/Game/WOW) |
 | ⚔️ 英雄联盟 | MOBA | [查看](/column/Game/LOL) |
+| 🗡️ 剑网三 | MMORPG | [查看](/column/Game/JX3) |
 
 ## 游戏观
 
