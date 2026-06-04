@@ -43,9 +43,6 @@ export const sidebar: DefaultTheme.Sidebar = {
                             link: '/column/Handmake/Gundam/SAZABI' 
                         }
                     ]
-                },
-                {   text: '手办', 
-                    link: '/column/Handmake/Handmade' 
                 }
             ]
         }
@@ -54,7 +51,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
             text: '学知识',
             items: [
-                {   text: 'Test', 
+                {   text: '学习笔记', 
                     link: '/column/Study/test' 
                 }
             ]
@@ -69,6 +66,16 @@ export const sidebar: DefaultTheme.Sidebar = {
                 },
                 {   text: '饮食管理', 
                     link: '/column/Fitness/diet' 
+                }
+            ]
+        }
+    ],
+    '/column/Growing/': [
+        {
+            text: '个人成长',
+            items: [
+                {   text: '健身', 
+                    link: '/column/Fitness/' 
                 }
             ]
         }

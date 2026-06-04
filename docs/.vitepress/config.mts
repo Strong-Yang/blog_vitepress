@@ -22,15 +22,11 @@ export default defineConfig(
       },
       lastUpdated: true,
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        { icon: 'github', link: 'https://github.com/Strong-Yang' }
       ],
       footer: {
         message: 'Released under the MIT License.',
         copyright: 'Copyright © 2024-present Optimux'
-      },
-      docFooter: {
-        prev: 'Pagina prior',
-        next: 'Proxima pagina'
       },
       editLink: {
         pattern: 'https://github.com/Strong-Yang/blog_vitepress/tree/main/docs/:path',
